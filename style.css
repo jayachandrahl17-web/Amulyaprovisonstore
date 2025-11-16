@@ -1,0 +1,113 @@
+
+h1{
+    font-size: 75px; 
+     background-color: rgb(93, 6, 6);
+        margin: 0%;
+        padding: 0%:     
+}
+h5{
+font-size: 22px; 
+    background-color: rgb(93, 6, 6);
+        margin: 0%;
+        padding: 0%;    
+}
+table{
+    width: 88%;
+    border-collapse: collapse;
+}
+th,td{
+    border : 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+th{
+    background-color: gray;
+}
+tr{
+background-color: rgb(60, 19, 4);
+color: antiquewhite;
+}
+.menu{
+    background-color: lightsalmon;
+    text-align: center;
+    padding: 10px;
+    margin: 5px 0;
+}
+.navbar {
+  background-color: #b5654d; /* Light reddish brown */
+  padding: 12px 20px;
+  border-radius: 5px;       /* Rounded corners */
+  margin: 10px auto;
+}
+
+/* Navbar background */
+.navbar {
+  background-color: #b5654d; /* light reddish brown */
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Remove list style and align items */
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+/* Button style */
+.btn-nav {
+  background-color: white;     /* button color */
+  color: #b5654d;              /* text color */
+  padding: 8px 18px;
+  border-radius: 25px;         /* rounded like YouTube style */
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  border: 2px solid #b5654d;   /* outline */
+  transition: 0.3s;
+}
+
+/* Hover Effect */
+.btn-nav:hover {
+  background-color: #b5654d;
+  color: white;
+}
+
+
+#about {
+  background-color: #f7e9e6;  /* light shade */
+  padding: 40px;
+  border: 3px solid #6a3b2e;  /* dark reddish-brown border */
+  border-radius: 8px;
+  color: #2b2b2b;
+}
+/* Hamburger icon */
+.hamburger {
+  width: 35px;
+  cursor: pointer;
+  margin: 15px;
+}
+
+.hamburger div {
+  height: 4px;
+  background-color: #000;
+  margin: 6px 0;
+  border-radius: 5px;
+}
+
+/* Hidden menu */
+.menu {
+  display: none;
+  flex-direction: column;
+  background-color: #b5654d; /* reddish brown */
+  padding: 15px;
+  border-radius: 6px;
+  width: 150px;
+  position: absolute;
+  top: 50px;
+  left: 15px;
+}
+
